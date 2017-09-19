@@ -1,74 +1,99 @@
 <html>
 
     <head>
-        <title> Alfred P Leitao - Portfolio </title>
+        <title>My lab work for creating Album List</title>
+        <center>
+        <a href="https://www.amazon.com/Grease-Original-Motion-Picture-Soundtrack/dp/B000001FDK/ref=ntt_mus_ep_dpi_1">
+                <img src="images/olivia.png"
+                alt="Olivia Newton-John Grease Album Image"
+                style="width: 300px"/>
+        </a>
+        </center>
     </head>
 
     <body>
-        <h1> Alfred P Leitao </h1>
-        <h2> About me </h2>
+            <h3>Navigation</h3>
+            <a href="MyAlbumList.html">Home</a>
+            <a href=Contact.html>Contact</a>
+            <h1> Alfred P Leitao </h1>
+        <center>
+        <h1>GREASE Motion Picture Soundtrack</h1>
+        <h2>Olivia Newton John Band</h2>
+        <p>Release Date:  1978</p>
+        <hr>
+    </center>
+    
         <p>
-            I am learning to be a software developer in html, javascript and java.
-            <span style="background-color: #54FAE4"> <b> I am really good at programming!</b></span>
-            <h2> Past Experiences </h2>
-            <p> Past experiences </p>
-            <br/>
+            <center><h2>Band Members and Producers</h2></center>
+            <ul style="list-style-type: round;">
+                    <li>Member One:  Olivia Newton-John</li>
+                    <li>Member Two:  Sha Na Na</li>
+                    <li>Member Three:  Frankie Valli</li>
+                    <li>Producer:  Olivia Newton-John</li>
+                </ul>
 
-            <a href="C:\Users\n0147313\Documents\Al Leitao Personal\Resume External - Al Leitao 201703.doc">Click image to see resume.
-            <img src="http://cdn.quotesgram.com/img/6/65/1579955695-kitten-rabbit_1250036i.jpg"
-            alt="Cute bunny and kitten together image"
-            style="width: 400px;height: 200px"/>
-            </a>
-            <p> Al Leitao meets Andrew Zimern at Five Islands Maine</p>
-            <img src="C:\Users\n0147313\Pictures\Zimern_Al.jpg" alt="Andrew Zimmern and All atr Five Islands, ME" style="width: 400px;height: 200px"
-            />
-            <p> You can find Al's resume by clicking on the link below.</p>
-            <a href="C:\Users\n0147313\Documents\Al Leitao Personal\Resume External - Al Leitao 201703.doc">Al's Resume</a>
-            <p>
-                <a href="https://www.google.com" target="_blank">Click for Google.</a> </p>
-            <br/>
-            <p> Hobbies, Certifications, etc... </p>
-            <ol type="A">
-                <li>Liberty Mutual</li>
-                <li>Upromise Investments</li>
-                <li>Fidelity Investments</li>
-            </ol>
-            <h2>Experience</h2>
-            <dl>
-                <dt>Liberty Mutual</dt>
-                <dd> Principal Systems Analyst 2011-Present</dd>
-                <dt>Upromise Investments</dt>
-                <dd>Director Business Intelligence 2003-2011</dd>
-                <dt>Fidelity Investments</dt>
-                <dd> Sr. Systems Analyst 1994 - 2003</dd>
-            </dl>
-            <h2>Certification and Training<ol</h2>
-            <ul style="list-style-type: square;">
-                <li>Liberty Mutual</li>
-                <li>Upromise Investments</li>
-                <li>Fidelity Investments</li>
-            </ul>
-            <a>
-                <!-- Comments not shown on website.  Used to epxlain code -->
-            <blockquote>
-                Lorem ipsum dolor sit amet, magna sed quia, elit non 
-                ut corrupti, aenean commodo elit, tincidunt platea 
-                purus quis at dolor a, felis nunc massa pede cras 
-                quis. Lacinia fusce, praesent at pede phasellus, dui 
-                etiam in luctus.
-            </blockquote>
-            </a>
-        </p> Additional Section </p>
-        <footer>
-            <a href="http://www.SoftwareGuild.com"> Click to see website.
-                <img src="images/SoftwareGuildLogo.png?" 
-                alt="Software Guild Logo" 
-                style="width: 100px"/> 
-            </a>
-            <br> 
-            To learn to build a site like this one, visit the <a href="http://www/softwareguild.com"> SoftwareGuild.</a>
+            <table border="2" width="60%">
+                <p><caption>Tracks and Performers</caption></p>
+            <tr bgcolor="azure">
+                    <th>Track #</th>
+                    <th>Track Title</th>
+                    <th>Performer</th>
+                    <th>Writer</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Grease</td>
+                    <td>Frankie Valli</td>
+                    <td>B. Gibb</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Summer Nights</td>
+                    <td>John Travolt & Olivia Newton-John</td>
+                    <td>J. Jacobs</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Hopelessly Devoted To You</td>
+                    <td>Olivia Newton-John</td>
+                    <td>J. Farrar</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>You're The One That I Want</td>
+                    <td>John Travolta & Olivia Newton-John</td>
+                    <td>J. Farrar</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Sandy</td>
+                    <td>John Travolta</td>
+                    <td>J. Jacobs / W. Casey</td>
+                </tr>
+        </table>
+<p><strong><i>To order Olivia Newton-John's GREASE album, complete the form below</strong></i></p>
+<h3>Order Form</h3>
+<form action="fakePage.html" method="POST">
+    Enter Your Name: <input type="text" name="Your Name" />
+    <p>Select: Do You Love Olivia Newton-John?<br/></p>
+    <input type="radio" name="answer" value="Yes" checked/>Yes<br/>
+    <input type="radio" name="answer" value="No"/>No<br/>
+    <input type="radio" name="answer" value="Maybe"/>Maybe<br/>
+    Password Input: <input type="password" name="userPassword" /><br/>
+    <input type="checkbox" name="myChoices" value="Single" />Single Song<br/>
+    <input type="checkbox" name="myChoices" value="Multiple" />Multiple Songs<br/>
+    <input type="checkbox" name="myChoices" value="Full" checked/>Full Album<br/>
+    <input type="checkbox" name="myChoices" value="None" />None<br/>
+    <select name="Song Selection">
+        <option value="Value1">Sandy</option>
+        <option value="Value2">You're The One That I Want</option>
+        <option value="Value3">Grease</option>
+      </select>
+      <textarea name="briefDescription">Win a trip to see Olivia by entering your address and phone number in the box</textarea><br/>
+      <input type="submit"/> <input type="reset"/><br/>
 
-        </footer>
+    </form>
+
     </body>
 
     </html>
